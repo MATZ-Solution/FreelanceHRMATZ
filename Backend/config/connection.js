@@ -7,10 +7,10 @@ const createPool = async () => {
 
   pool = await mySql2.createPool({
     connectionLimit: 10, // adjust according to your needs
-    host: "193.203.166.177",
-    user:"u426733178_root",
+    host: "153.92.7.247",
+    user:"matzsolu_freelancehr_root",
     password:"Windows!@#$567",
-    database:"u426733178_freelancingdb"
+    database:"matzsolu_freelancehr"
 
   });
 
