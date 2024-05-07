@@ -543,7 +543,7 @@ export { default as count_icon_01 } from "../assets/img/icon/count-icon-01.svg";
 export { default as count_icon_02 } from "../assets/img/icon/count-icon-02.svg";
 export { default as count_icon_03 } from "../assets/img/icon/count-icon-03.svg";
 export { default as count_icon_04 } from "../assets/img/icon/count-icon-04.svg";
-export { default as logo } from "../assets/img/logo.svg";
+export { default as logo } from "../assets/img/logo.png";
 export { default as google_icon } from "../assets/img/icon/google-icon.svg";
 export { default as fb_icon } from "../assets/img/icon/fb-icon.svg";
 export { default as ios_icon } from "../assets/img/icon/ios-icon.svg";

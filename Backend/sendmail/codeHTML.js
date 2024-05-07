@@ -26,7 +26,7 @@ exports.forgetHTML = (name, random) => {
       border: none !important;
   ">
   
-          <img alt="Spade Rent" src="https://res.cloudinary.com/dao9gnwv4/image/upload/v1713168896/logo-01_dppf2o.png" width="232" style="	display: block;
+          <img alt="MATZ Solution" src="https://res.cloudinary.com/dao9gnwv4/image/upload/v1715081617/tllvmrbwb6ve51kehrub.png" width="232" style="	display: block;
     margin: 0 auto;
   margin: 30px auto;">
         </td>
@@ -477,7 +477,7 @@ exports.welcome = (name) => {
     <tr>
     <td class="">
     <div class="">
-    <a style="background-color:#1467B0 ;border-radius:4px;color:#fff;display:inline-block;font-family: figtree; font-size:18px;font-weight:normal;line-height:50px;text-align:center;text-decoration:none;width:350px;-webkit-text-size-adjust:none;" href="https://freelance.xgentechnologies.com">Visit Our Website</a>
+    <a style="background-color:#1467B0 ;border-radius:4px;color:#fff;display:inline-block;font-family: figtree; font-size:18px;font-weight:normal;line-height:50px;text-align:center;text-decoration:none;width:350px;-webkit-text-size-adjust:none;" href="https://freelance.matzsolutions.com/">Visit Our Website</a>
     </div>
      <br>
     </td>

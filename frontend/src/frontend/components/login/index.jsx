@@ -88,7 +88,7 @@ const Login = () => {
                 <div className="align-items-center justify-content-center">
                   <div className="login-right">
                     <div className="login-header text-center">
-                      <Link to="/"><img src={logo} alt="logo" className="img-fluid" /></Link>
+                      <Link to="/"><img src={logo} alt="logo11" className="img-fluid" style={{height : '80px'}} /></Link>
                       <h3>Welcome! Nice to see you again</h3>
                     </div>
                     <form onSubmit={handleSubmit(submitForm)}>

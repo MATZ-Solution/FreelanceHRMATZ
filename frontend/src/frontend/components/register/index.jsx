@@ -449,7 +449,7 @@ const Register = () => {
             <div className="align-items-center justify-content-center">
               <div className="login-right">
                 <div className="login-header text-center">
-                  <Link to="/"><img src={logo} alt="logo" className="img-fluid" /></Link>
+                  <Link to="/"><img src={logo} alt="logo" style={{height : '80px'}} className="img-fluid" /></Link>
                   <h3>We love to see you joining our community</h3>
                 </div>
                 <nav className="user-tabs mb-4">
