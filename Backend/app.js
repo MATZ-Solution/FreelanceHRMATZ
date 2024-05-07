@@ -37,6 +37,6 @@ app.use("/", userRoutes);
 app.use("/project", projectRoutes);
 app.use("/job", jobRoutes);
 
-server.listen(5500, () => {
-  console.log("Server is running on port 5500");
+server.listen(5700, () => {
+  console.log("Server is running on port 5700");
 });
