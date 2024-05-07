@@ -136,7 +136,7 @@ const FreelancerDashboard = () => {
 
   const getDashboardDetails = async () => {
     try {
-      const request = await fetch(`https://freelanceserver.xgentechnologies.com/freelancingDashboard`, {
+      const request = await fetch(`https://freelanceserver.matzsolutions.com/freelancingDashboard`, {
         method: "GET",
         headers: {
           'Content-Type': 'application/json',
@@ -159,7 +159,7 @@ const FreelancerDashboard = () => {
 
   const getAllJob = async () => {
     try {
-      const getAllJobRequest = await fetch(`https://freelanceserver.xgentechnologies.com/job/allAppliedJobs`, {
+      const getAllJobRequest = await fetch(`https://freelanceserver.matzsolutions.com/job/allAppliedJobs`, {
         method: "GET",
         headers: {
           'Content-Type': 'application/json',

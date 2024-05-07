@@ -133,7 +133,7 @@ const PostJob = () => {
     // formData.append('status', jobDetails.status)
     // formData.append('image', jobDetails?.image || '')
     try {
-      const postProjectReq = await fetch('https://freelanceserver.xgentechnologies.com/job/job', {
+      const postProjectReq = await fetch('https://freelanceserver.matzsolutions.com/job/job', {
         method: "POST",
         headers: {
           'Authorization': `Bearer ${token}`,

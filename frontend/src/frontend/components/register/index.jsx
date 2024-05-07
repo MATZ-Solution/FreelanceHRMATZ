@@ -24,7 +24,7 @@ function FormFreelancer(props) {
 
   const SignUpFreelancer = async (data) => {
     try {
-      const registerRequest = await fetch('https://freelanceserver.xgentechnologies.com/signup', {
+      const registerRequest = await fetch('https://freelanceserver.matzsolutions.com/signup', {
 
         method: "POST",
         headers: {
@@ -236,7 +236,7 @@ function FormCompany(props) {
 
   const SignUpCompany = async (data) => {
     try {
-      const registerRequest = await fetch('https://freelanceserver.xgentechnologies.com/signUp', {
+      const registerRequest = await fetch('https://freelanceserver.matzsolutions.com/signUp', {
 
         method: "POST",
         headers: {

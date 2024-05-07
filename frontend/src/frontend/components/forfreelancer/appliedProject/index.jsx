@@ -21,7 +21,7 @@ const FreelancerAppliedProject = () => {
   let [loader, setLoader] = useState(true)
   const getAllProject = async () => {
     try {
-      const getAllProjectRequest = await fetch(`https://freelanceserver.xgentechnologies.com/project/allAppliedProject`, {
+      const getAllProjectRequest = await fetch(`https://freelanceserver.matzsolutions.com/project/allAppliedProject`, {
         method: "GET",
         headers: {
           'Content-Type': 'application/json',

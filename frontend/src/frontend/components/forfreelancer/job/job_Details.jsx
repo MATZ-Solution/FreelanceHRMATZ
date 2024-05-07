@@ -133,7 +133,7 @@ const JobDetails = () => {
     //   userId = 0
     // }
     try {
-      const request = await fetch(`https://freelanceserver.xgentechnologies.com/job/getJobById/${id}/${userId}`, {
+      const request = await fetch(`https://freelanceserver.matzsolutions.com/job/getJobById/${id}/${userId}`, {
         method: "GET",
         headers: {
           'Content-Type': 'application/json',
@@ -163,7 +163,7 @@ const JobDetails = () => {
     formdata.append('image', propsalDetails?.image || '')
 
     try {
-      const getProposalRequest = await fetch(`https://freelanceserver.xgentechnologies.com/job/proposalSubmit`, {
+      const getProposalRequest = await fetch(`https://freelanceserver.matzsolutions.com/job/proposalSubmit`, {
         method: "POST",
         headers: {
           // 'Content-Type': 'application/json',

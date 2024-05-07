@@ -154,7 +154,7 @@ const CompanyProfile = () => {
       userId = 0
     }
     try {
-      const getProjectRequest = await fetch(`https://freelanceserver.xgentechnologies.com/project/projectById/${id}/${userId}`, {
+      const getProjectRequest = await fetch(`https://freelanceserver.matzsolutions.com/project/projectById/${id}/${userId}`, {
         method: "GET",
         headers: {
           'Content-Type': 'application/json',
@@ -178,7 +178,7 @@ const CompanyProfile = () => {
 
   const sendproposal = async () => {
     try {
-      const getProposalRequest = await fetch(`https://freelanceserver.xgentechnologies.com/project/proposalSubmit`, {
+      const getProposalRequest = await fetch(`https://freelanceserver.matzsolutions.com/project/proposalSubmit`, {
         method: "POST",
         headers: {
           'Content-Type': 'application/json',

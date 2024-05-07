@@ -130,7 +130,7 @@ const PostProject = () => {
     formData.append('status', projectDetails.status)
     formData.append('image', projectDetails.image)
     try {
-      const postProjectReq = await fetch('https://freelanceserver.xgentechnologies.com/project/project', {
+      const postProjectReq = await fetch('https://freelanceserver.matzsolutions.com/project/project', {
         method: "POST",
         headers: {
           'Authorization': `Bearer ${token}`,

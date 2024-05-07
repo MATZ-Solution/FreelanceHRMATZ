@@ -132,7 +132,7 @@ const Header = (props) => {
   }
   const Authenticate = async () => {
     try {
-      const request = await fetch(`https://freelanceserver.xgentechnologies.com/protected`, {
+      const request = await fetch(`https://freelanceserver.matzsolutions.com/protected`, {
         method: "GET",
         headers: {
           'Content-Type': 'application/json',

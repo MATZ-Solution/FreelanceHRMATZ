@@ -28,7 +28,7 @@ const Login = () => {
 
   const LogIn = async (data) => {
     try {
-      const loginRequest = await fetch('https://freelanceserver.xgentechnologies.com/signin', {
+      const loginRequest = await fetch('https://freelanceserver.matzsolutions.com/signin', {
         method: "POST",
         headers: {
           'Content-Type': 'application/json',
